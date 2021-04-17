@@ -1,0 +1,717 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: commissioner;
+}
+body{
+    background-color: hsl(0, 0%, 97%);
+}
+.kontejner1{
+    background-image: url("images//image-hero-desktop.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 280px;
+}
+
+.kontejner1a{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    color:white;
+    padding-top: 2%;
+    align-items: center;
+}
+.kontejner1 a{
+    text-decoration: none;
+}
+
+.crowfund:hover{
+    cursor: pointer;
+}
+.headMenu{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    font-size: smaller;
+}
+.headMenu p:hover{
+    cursor: pointer;
+}
+.kontejner2{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.kontejner2a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: -10%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+}
+.naslov{
+    margin-top: 7%;
+    margin-bottom: 1%;
+    font-size: x-large;
+}
+.podnaslov{
+    margin-bottom: 5%;
+    font-size: small;
+}
+.backIBookmark{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    align-items: center;
+}
+.bookmark:hover{
+cursor: pointer;
+}
+.back{
+    background-color:hsl(176, 50%, 47%);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    outline: none;
+}
+.back:hover{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+.bookmark{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    width: 130px;
+    background-color:#e0e0d1;
+}
+
+.bookmark.obelezeno{
+    color: hsl(176, 50%, 47%);
+}
+
+.bookmarkText.obelezeno{
+    font-weight: 900;
+}
+
+.bookmark img{
+    width: 35px;
+    height: 35px;
+    padding-right: 3px;
+}
+.bookmarkText {
+    padding-bottom: 3px;
+    padding-left: 8%;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.bookmark p:hover{
+    cursor: pointer;
+}
+
+.kontejner2b{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.kontejner2bA{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+.kinta{
+    display: flex;
+    align-items: center;
+}
+.znakDolar{
+    font-size: x-large;
+    margin-right: 2%;
+    font-weight: 900;
+}
+.novac{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    border-right: 1px solid #e0e0d1;
+}
+.podrzavaoci{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    border-right: 1px #e0e0d1 solid;
+    padding-left: 3%;
+}
+.dani{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    padding-left: 3%;
+}
+.zapisIznad{
+    font-size: x-large;
+    font-weight: 900;
+}
+.zapisIspod{
+    font-size: smaller;
+    color: grey;
+}
+.kontejner2v{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.kontejner2vA{
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.naslovAbout{
+    font-size: large;
+    font-weight: 900;
+}
+.paragraf1About{
+    color: grey;
+    font-size: smaller;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+.paragraf2About{
+    color: grey;
+    font-size: smaller;
+    text-align: justify;
+}
+
+.kontejner2vB{
+    width: 80%;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    border: 1px solid #ccccb3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.izbor{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.proizvod{
+    font-weight: 900;
+}
+.pledge{
+    font-size: smaller;
+    color: hsl(176, 50%, 47%);
+    font-weight: 900;
+}
+.opis{
+    width: 90%;
+    margin: auto;
+    text-align: justify;
+    color:hsl(0, 0%, 48%);
+    font-size: smaller;
+}
+.poslednjiDeo{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.preostalo{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+.kolicina{
+    font-size: x-large;
+    font-weight: 900;
+}
+.left{
+    padding-left: 10px;
+}
+.izaberi{
+    background-color:hsl(176, 50%, 47%);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+    outline: none;
+    width: 35%;
+}
+.izaberi:hover{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+
+.kontejner3{
+    /*width: 55%;
+    background-color: white;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    display: none;*/
+
+    /*Ovo je stil za modal. Kontejner3 je deo njega.*/
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 55%; /* Could be more or less, depending on screen size */
+
+}
+.kontejner3a{
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.naslovPodrzi{
+    padding-bottom: 4%;
+    font-size: large;
+    font-weight: 900;
+}
+.podnaslovPodrzi{
+    font-size: smaller;
+    color: grey;
+}
+
+.kontejner3bbez{
+    width: 90%;
+    border: 1px solid #ccccb3;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.kontejner3bAbez{
+    width: 10%;
+    padding-top: 4%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.kontejner3bB2bez{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    display: flex;
+    padding-right: 3.2%;
+    border-top: 0.5px solid grey;
+    display: none;
+}
+.aaaaa{
+    display: flex;
+}
+.kontejner3bBbez{
+    width: 90%;
+    padding-top: 3%;
+}
+.kont1{
+    align-items: center;
+}
+.kont1 p {
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.opisProizvoda{
+    white-space: nowrap;         /*Sprecavanje teksta da ide u drugi red*/
+}
+.opisProizvoda:hover{
+    color: hsl(176, 50%, 47%);
+    cursor: pointer;
+}
+.kont2 p{
+    color: grey;
+    margin-bottom: 3%;
+    padding-right: 3%;
+    font-size: smaller;
+    text-align: justify;
+}
+
+.kontejner3b{
+    width: 90%;
+    border: 1px solid #ccccb3;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+} 
+.kontejner3bA{
+    display: flex;
+}
+.radio{
+    cursor: pointer;
+}
+
+.kontejner3bA1{
+    width: 10%;
+    padding-top: 3.5%;
+    text-align: center;
+}
+.kontejner3bA2{
+    width: 90%;
+    padding-top: 3%;
+}
+.kont1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+.opisIpare{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pledge1{
+    padding-left: 2%;
+    font-size: smaller;
+    font-weight: 800;
+    color: hsl(176, 50%, 47%);
+    width:60%;
+}
+
+.kontejner3bB{
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    border-top: 0.5px solid grey;
+}
+.enterPledge{
+    font-size: smaller;
+    color: grey;
+}
+.continue{
+    background-color:hsl(176, 50%, 47%);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    height: 30px;
+    outline: none;
+    width: 100px;
+}
+.continue:hover{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+.novo{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+.quantity{
+    border-color: grey;
+    border-radius: 20px;
+    width: 70%;
+    outline: none;
+    border: none;
+    font-weight: 900;
+}
+.novo span{
+    padding-left: 5px;
+    width: 30%;
+}
+.dolar{
+    display: flex;
+    justify-content: space-between;
+    border: solid grey 0.5px;
+    border-radius: 20px;
+}
+.thanksForSupport{
+    /* width: 55%;
+    background-color: white;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: none;
+    border-radius: 10px; */
+
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 55%; /* Could be more or less, depending on screen size */
+    text-align: center;
+    justify-content: center;
+}
+
+.thanksForSupport img{
+    width: 50px;
+    height: 155px;
+    padding-top: 10%;
+    padding-bottom: 4%;
+
+}
+.thanks{
+    padding-bottom: 4%;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.textThanks{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    color: grey;
+    padding-bottom: 4%;
+    font-size: smaller;
+}
+
+.gotIt{
+    background-color:hsl(176, 50%, 47%);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+    outline: none;
+    width: 25%;
+    margin-bottom: 10%;
+}
+.gotIt:hover{
+    cursor: pointer;
+    background-color: hsl(176, 72%, 28%);
+}
+
+
+.slidecontainer {
+  width: 80%; /* Width of the outside container */
+  margin: auto;
+  margin-bottom: 10%;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background:linear-gradient(90deg, #3cb4ac 89%,grey 89%);; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  height: 10px;
+  border-radius: 25px;
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    visibility: hidden;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    visibility: hidden;
+  }
+
+  /*modal*/
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+@media(max-width:800px){
+    .kontejner1{
+        height: 150px;
+    }
+    .kontejner2{
+        width: 100%;
+    }
+    .naslov{
+        text-align: center;
+    }
+    .podnaslov{
+        width: 90%;
+        text-align: center;
+    }
+    .backIBookmark{
+        justify-content: space-around;
+    }
+    .bookmark{
+        width: 30px;
+    }
+    .bookmark p{
+        display: none;
+    }
+    .kontejner2a {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .kontejner2b {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .kontejner2v {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    .izaberi{
+        width: 100px;
+        font-size: x-small;
+    }
+    .kont1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .opisIpare{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .opisProizvoda{
+        word-wrap:normal;
+        white-space: normal;
+        font-size: smaller;
+    }
+    .kontejner3bB{
+        flex-direction: column;
+    }
+    .novo{
+        width: 100%;
+    }
+    .radioBez{
+        margin-top: 4px;
+    }
+    .kont2{
+        padding-bottom: 10px;
+    }
+    .headMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: x-small;
+    }
+    .kontejner1a{
+        justify-content: space-between;
+    }
+    .continue{
+        font-size: xx-small;
+        width: 55px;
+    }
+    .kontejner3{
+        margin-bottom: 5%;
+    }
+    .quantity{
+        font-size: xx-small;
+    }
+    .thanksForSupport img{
+        width: 40px;
+        height: 80px;
+    }
+    .gotIt{
+        width: 150px;
+    }
+    .znakDolar{
+        font-size: medium;
+    }
+    .zapisIznad{
+        font-size: medium;
+    }
+    .kolicina{
+        font-size: medium;
+    }
+    .pledge1{
+        font-size: x-small;
+    }
+    .preostalo1{
+        font-size: small;
+    }
+    .thanks{
+        font-size: x-large;
+    }
+
+}
